@@ -1,0 +1,26 @@
+
+Git installation commands: 
+
+- git config --global user.name "Saim ali khan"
+- git config --global user.email "kksamali298@gmail.com"
+
+Git commands:
+- git init       {initialize the folder with git repositery(folder)}
+- git status 	 {shows status about the repositery}
+	- untracked 	when files are in repositery
+	- staged	when files are in staged
+	
+
+- git add "myfile.txt"		{take that file to the staging area}
+- git add .			{take all files}
+
+
+- git commit -m"added slider" 
+
+- git log 	{show who had made changes}
+
+
+
+
+
+
