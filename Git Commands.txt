@@ -7,20 +7,34 @@ Git installation commands:
 Git commands:
 - git init       {initialize the folder with git repositery(folder)}
 - git status 	 {shows status about the repositery}
-	- untracked 	when files are in repositery
-	- staged	when files are in staged
+	?? - Untracked files
+	A - Files added to stage
+	M - Modified files
+	D - Deleted files
+
 	
 
 - git add "myfile.txt"		{take that file to the staging area}
 - git add .			{take all files}
+	- git add -all
+	- git add -A
 
 
 - git commit -m"added slider" 
-
+- git commit -a -m"small change in index"		{this will add and commit both with single command}
 - git log 	{show who had made changes}
 
+Git Branch:
+- git branch "version 2 in working"
+- git branch {show all branches}
+
+- git checkout "version 2"  {switch to version 2 branch}
+- git merge version      {you must be on the main branch to merge with the existing branch}
 
 
 
+GITHUB:
 
-
+- git remote add origin https:\\website.com     {copy link of repositery from the github}
+- git pull branchname        {branchname to pull the changes from}
+- git push origin branchname
